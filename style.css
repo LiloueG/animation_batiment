@@ -1,0 +1,44 @@
+.Citadelle {
+    .cls-1 {
+        fill: #ffffff;
+      }
+
+      .cls-1, .cls-2 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #1d1d1b;
+        stroke-width: 0px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+      .cls-4 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+}
+
+.conservatoire {
+    .cls-1 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+}
+
+.lidl {
+    .cls-1, .cls-2 {
+        fill: none;
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill-rule: evenodd;
+      }
+}
