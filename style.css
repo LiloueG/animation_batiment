@@ -37,17 +37,8 @@ body {
 /* Styles pour le train */
 #train {
   position: relative;
-  width: 200px; /* Largeur du train */
   overflow: hidden;
-}
-
-#train {
-  position: absolute;
-  top: 50%; /* Ajustez la position verticale selon vos besoins */
-  left: 0;
-  width: 200px; /* Largeur du train */
-  height: 100px; /* Hauteur du train */
-  animation: moveTrain 10s linear infinite; /* Mouvement du train */
+  animation: moveTrain 10s linear infinite;
 }
 
 @keyframes velo {
@@ -57,11 +48,8 @@ body {
 
 #velo {
   position: absolute;
-  top: 50%; /* Ajustez la position verticale selon vos besoins */
-  left: 0;
-  width: 200px; /* Largeur du train */
-  height: 100px; /* Hauteur du train */
-  animation: moveTrain 30s linear infinite;
+  overflow: hidden;
+  animation: velo 20s linear infinite;
 }
 
 
