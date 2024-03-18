@@ -6,11 +6,13 @@ h3 {
   font-size: 2em;
   color: #1d1d1b;
   font-family: 'Poppins', sans-serif;
+  position: absolute;
+  margin-left: 40%;
 }
 
 body {
-
-    background: linear-gradient(to bottom, #0074D9 0%, #8fbde4 59%, #51d060 60%, #1a6e24 100%);
+  background: linear-gradient(to bottom, #0074D9 0%, #8fbde4 65%, #51d060 60%, #1a6e24 100%);
+  margin: 0;
 }
 
 
@@ -18,7 +20,7 @@ body {
   width: 100vw; 
   height: 100vh; 
   align-items: center;
-  margin: 0;
+  margin-top: 0;
 }
 
 #batiment {
@@ -68,6 +70,20 @@ body {
   animation-delay: 0.25s;
 }
 
+
+#nuage,  #nuage-2, #nuage-3, #nuage-4{
+  animation: cloudPulse 4s infinite alternate;
+  transform-origin: center;
+}
+
+@keyframes cloudPulse {
+  0% {
+      transform: scale(1);
+  }
+  100% {
+      transform: scale(1.1);
+  }
+}
 .cls-1 {
   fill: url(#Dégradé_sans_nom_215-7);
 }
